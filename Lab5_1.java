@@ -10,5 +10,9 @@ public class Lab5_1 {
         for (int i = 0; i < 10; i++) {
             System.out.print(a[i] + " ");
         }
+        System.out.print("\n");
+        for (int i = 9; i > -1; i--) {
+            System.out.print(a[i] + " ");
+        }
     }
 }
